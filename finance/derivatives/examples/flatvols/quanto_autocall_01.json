@@ -1,0 +1,19 @@
+{ "arguments":[{
+    "method":"PriceFLEXMCHLV(npath=65536)",
+    "trade_string":"KoreanAutocall(key_ccy=USD,calendar=Seoul+Tokyo,maturity=20231124,T=20201215,underlyings=USDKRW+KOSPI2+SP500,ref1=0,ref2=280,ref3=100,tradeDate=20201126,couponPA=0.06,KIbarrier=0.5,dummy=2,dummyLevel=1.18,endPut=1.0,settle=6,date6m=20210524,barrier6m=0.9,payoff6m=1.03,maxDelta6m=10,shift6m=0,date12m=20211124,barrier12m=0.9,payoff12m=1.06,maxDelta12m=10,shift12m=0,date18m=20220524,barrier18m=0.9,payoff18m=1.09,maxDelta18m=10,shift18m=0,date24m=20221124,barrier24m=0.9,payoff24m=1.12,maxDelta24m=10,shift24m=0,date30m=20230524,barrier30m=0.9,payoff30m=1.15,maxDelta30m=10,shift30m=0,date36m=20231124,barrier36m=0.8,payoff36m=1.18,maxDelta36m=10,shift36m=0)@@",
+    "spots":{"KOSPI2":280,"SP500":100},
+    "rates":{"KRW":0.04, "USD": 0.03},
+    "repos":{"KOSPI2":0.03,"SP500":0.01},
+    "flatVols":{"KOSPI2":0.20,"SP500":0.14},
+    "fxInterest": {"KRW":0.04},
+    "fxYield": {"USDKRW":0.01},
+    "fxVols": {"USDKRW":0.20},
+    "fxSpots": {"USDKRW":1100.0},
+    "ratesMap": {"KOSPI2":"KRW","SP500":"USD"},
+    "correlations":[[1.0, 0.7, 0.2],
+                    [0.7, 1.0, 0.1],
+                    [0.2, 0.1, 1.0]],
+    "correlationKeys":["USDKRW","KOSPI2", "SP500"]
+    }],
+    "name": "PriceSimplifiedJob/1"
+}

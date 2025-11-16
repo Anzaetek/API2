@@ -1,0 +1,17 @@
+{ "arguments":[{
+    "method":"PriceVanillaTradeMC1DLV(npathOld=65536,npath=262144)",
+    "trade_string":"Vanilla(T=20191113,obs=20211220,pay=20211220,strike=1100,underlying=USDKRW,putcall=1)",
+    "spots":{"KOSPI2":280},
+    "rates":{"KRW":0.04},
+    "repos":{"KOSPI2":0.03},
+    "flatVols":{"KOSPI2":0.20},
+    "fxInterest": {"KRW":0.04},
+    "fxYield": {"USDKRW":0.01},
+    "fxVols": {"USDKRW":0.20},
+    "fxSpots": {"USDKRW":1100.0},
+    "ratesMap": {"KOSPI2":"KRW"},
+    "correlations":[],
+    "correlationKeys":[]
+    }],
+    "name": "PriceSimplifiedJob/1"
+}

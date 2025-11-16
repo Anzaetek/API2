@@ -1,0 +1,17 @@
+{ "arguments":[{
+    "method":"PriceVanillaTradeAnalytics()",
+    "trade_string":"Vanilla(T=20191113,obs=20201220,pay=20201220,strike=250,underlying=KOSPI2,putcall=1)",
+    "spots":{"KOSPI2":280},
+    "rates":{"KRW":0.01},
+    "repos":{"KOSPI2":0.03},
+    "flatVols":{"KOSPI2":0.21},
+    "fxInterest": {},
+    "fxYield": {},
+    "fxVols": {},
+    "fxSpots": {},
+    "ratesMap": {"KOSPI2":"KRW"},
+    "correlations":[],
+    "correlationKeys":[]
+    }],
+    "name": "PriceSimplifiedJob/1"
+}

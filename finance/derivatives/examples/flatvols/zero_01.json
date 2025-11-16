@@ -1,0 +1,17 @@
+{ "arguments":[{
+    "method":"PriceFLEXMC1DLV(npath=65536,npathOld=262144)",
+    "trade_string":"Zero(maturity=20211113,T=20191113,underlying=KOSPI2)",
+    "spots":{"KOSPI2":280},
+    "rates":{"KRW":0.04},
+    "repos":{"KOSPI2":0.03},
+    "flatVols":{"KOSPI2":0.20},
+    "fxInterest": {"KRW":0.04},
+    "fxYield": {"USDKRW":0.01},
+    "fxVols": {"USDKRW":0.20},
+    "fxSpots": {"USDKRW":1100.0},
+    "ratesMap": {"KOSPI2":"KRW"},
+    "correlations":[[1.0, 0.7],[0.7, 1.0]],
+    "correlationKeys":["USDKRW", "KOSPI2"]
+    }],
+    "name": "PriceSimplifiedJob/1"
+}
